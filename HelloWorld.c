@@ -7,9 +7,9 @@
  * Created: Mon Mar 24 09:43:59 2014 (+0900)
  * Version: 
  * Package-Requires: ()
- * Last-Updated: Mon Mar 24 09:51:20 2014 (+0900)
+ * Last-Updated: Fri Mar 28 17:15:20 2014 (+0900)
  *           By: root
- *     Update #: 1
+ *     Update #: 2
  * URL: 
  * Doc URL: 
  * Keywords: 
@@ -47,6 +47,9 @@
 /* Code: */
 #include <stdio.h>
 
+int AddInt(int a, int b){
+  return a+b;
+}
 int main(int argc, char *argv[])
 {
   printf("Hello World!!!\n");
